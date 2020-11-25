@@ -169,7 +169,7 @@ nav ul li a:hover {
 .key_visual {
   height: 600px;
   background-color: #ff0;
-  background-image: url(../image/top-image.jpg);
+  background-image: url(top-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: right;
