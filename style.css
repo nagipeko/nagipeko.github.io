@@ -1,0 +1,152 @@
+/* CSS Document */
+
+body {
+    font-family: fot-tsukuardgothic-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+    line-height: 1.9;
+    font-size:1.1em;
+    padding-top:55px;
+    }
+    
+    a {
+    color: #1f4a8f;
+    text-decoration: none;
+    }
+    
+    
+    a:hover,
+    a:hover img {
+    opacity: 0.5;
+    transition: all .3s;
+    }
+    
+    img{
+    max-width: 100%;
+    height: auto;
+    }
+    
+    ul{
+    list-style: none;
+    padding-left: 0;
+    }
+    
+    
+    /*--------------------------------
+    　ヘッダーロゴ・背景写真
+    ---------------------------------*/
+    
+    .header {
+    display: flex;
+    height: 340px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/bk.jpg);
+    background-size: cover;
+    background-position: center center;
+    }
+    
+    .header .logo-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-shadow: 5px 5px 10px black;
+    font-size:1.5em;
+    font-weight: normal;
+    color: #d82b2d;
+    line-height: 1;
+    letter-spacing: .2em; 
+    }
+    
+    .header .logo-name {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 1em;
+      text-shadow: 5px 5px 10px black;
+      line-height: 1;
+      text-align: center;
+      color: #fff;
+      margin-bottom: 5px;
+      }
+    
+    
+    /*--------------------------------
+    　グローバルナビ
+    ---------------------------------*/
+    
+    .navbar-toggler{
+      background-color: #ddd;
+    }
+    .gnav{
+      background-color: #D82B2D;
+    }
+    
+    .gnav li a {
+    font-weight: bold;
+    font-size: 0.8em;
+    color: #ddd;
+    display: block;
+    padding:0 20px;
+    }
+    
+    
+    /* 見出しタイトル */
+    .title{
+    font-size:2em;
+    font-family: fot-tsukuardgothic-std,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border-bottom:2px solid #1f4a8f;
+    border-top:2px solid #1f4a8f;
+    padding:1em 0;
+    margin:3em 0;
+    }
+    
+    .website_A{
+      height: 600px;
+      width:100%;
+      overflow: scroll;
+    }
+    
+    /*--------------------------------
+    Footer
+    ---------------------------------*/
+    
+    .footer {
+      font-family: 'Open Sans Condensed', sans-serif;
+      background-color: #d82b2d;
+      width:100%;
+      text-align: center;
+      color:#fff
+    }
+    .footer a{
+      color:#fff
+    }
+    .footer p{
+      margin:0;
+    }
+    
+    
+    
+    
+    
+    /* 最小横サイズが768px ipad 縦おき */
+    @media (min-width:768px){
+      body{
+            padding-top:58px;
+      }
+      .gnav li+li{
+        border-left: 1px solid #ddd;
+      }
+    
+      .header {
+      height: 900px;
+      }
+    
+      .header .logo-name {
+      font-size: 2em;
+      }
+    
+      .header .logo-title {
+      font-size:3em;
+    
+      }
+    }
