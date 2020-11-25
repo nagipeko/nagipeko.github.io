@@ -42,7 +42,7 @@ body {
     height: 340px;
     justify-content: center;
     align-items: center;
-    background-image: url(img/bk.jpg);
+    background-image: url(bk.jpg);
     background-size: cover;
     background-position: center center;
     }
